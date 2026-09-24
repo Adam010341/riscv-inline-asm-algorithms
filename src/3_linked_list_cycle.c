@@ -8,7 +8,7 @@ struct ListNode
     struct ListNode *next;
 };
 
-/* TODO: Implement your code below */
+/* Implemented in RV64IF inline assembly (see README for the design notes) */
 bool hasCycle(struct ListNode *head)
 {
     struct ListNode *slow = head;

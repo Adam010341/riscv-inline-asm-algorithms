@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* TODO: Implement your code below */
+/* Implemented in RV64IF inline assembly (see README for the design notes) */
 int binarySearch(float *p_a, int arr_size, float target)
 {
     int result = -1;
